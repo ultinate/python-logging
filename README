@@ -1,0 +1,9 @@
+Logger demo
+-----------
+
+Requires python 3.6.
+
+Run `pip install -r requirements.txt` to install dependencies.
+
+Run `python demo.py` for logging demo.
+

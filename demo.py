@@ -4,7 +4,7 @@ import logging
 import bar
 from foo import Foo
 
-log = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 
 def setup_logging():
@@ -15,12 +15,12 @@ def setup_logging():
 
 
 def main():
-    log.info('Entering main ...')
-    log.debug('This is a demo for logging.')
+    logger.info('Entering main ...')
+    logger.debug('This is a demo for logging.')
     f = Foo()
     f.do_foo(42)
     bar.bar()
-    log.info('Leaving main ...')
+    logger.info('Leaving main ...')
 
 
 if __name__ == '__main__':
